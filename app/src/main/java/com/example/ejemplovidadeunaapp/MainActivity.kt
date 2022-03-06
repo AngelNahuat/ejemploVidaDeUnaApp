@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val boton= findViewById<Button>(R.id.boton)
 
 
-
+//
         boton.setOnClickListener {
             nombre="Angel"
             Toast.makeText(this, nombre, Toast.LENGTH_SHORT).show()
